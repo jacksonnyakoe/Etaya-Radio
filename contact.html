@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Etaya Radio 100.3 FM</title>
+    <meta name="description" content="Contact Etya Radio 100.3 FM - Get in touch with us for news, inquiries, and feedback">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/etaya icon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="images/etaya logo.jpeg" alt="Etaya Logo" class="logo">
+                    <div class="radio-info">
+                        <div class="radio-name">Etaya Radio</div>
+                        <div class="frequency">100.3 FM</div>
+                        <div class="slogan">Eriogi Ria Omogusii</div>
+                    </div>
+                </div>
+                <div class="search-container">
+                    <input type="text" class="search-bar" placeholder="Search..." autocomplete="off">
+                    <button class="search-btn" aria-label="Search">🔍</button>
+                </div>
+                <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <button class="nav-link live-btn" onclick="window.location.href='#live-player'">🔴 LIVE</button>
+                </li>
+                <li class="nav-item">
+                    <a href="Home.html" class="nav-link"> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link"> News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="politics.html" class="nav-link"> Politics</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="business.html" class="nav-link"> Business</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sports.html" class="nav-link"> Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link"> About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link"> Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1> Contact Us</h1>
+            <p>Get in touch with Etaya Radio 100.3 FM - We value your feedback, news tips and suggestions</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Contact Information Grid -->
+            <div class="content-grid">
+                <!-- Main Contact Info -->
+                <div class="content-card">
+                    <h3> Main Office</h3>
+                    <p><strong>Address:</strong> Kisii-Kisumu Road<br>
+                    Etaya House, Nyamataro<br>
+                    P.O. Box 40200, Kisii</p>
+                    <p><strong>Phone:</strong> +254 735 333000</p>
+                    <p><strong>Email:</strong> etayaradio@gmail.com</p>
+                    <p><strong>Frequency:</strong> 100.3 FM</p>
+                </div>
+
+                <!-- Studio Contact -->
+                <div class="content-card">
+                    <h3> Studio Contact</h3>
+                    <p><strong>Live Studio Line:</strong> +254 735 333000</p>
+                    <p><strong>SMS/WhatsApp:</strong> +254 735 333000</p>
+                    <p><strong>Studio Hours:</strong></p>
+                    <ul style="list-style: none; padding-left: 0;">
+                        <li>Monday - Friday: 5:00 AM - 11:00 PM</li>
+                        <li>Saturday: 6:00 AM - 10:00 PM</li>
+                        <li>Sunday: 6:00 AM - 9:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="content-card" style="margin-top: 30px;">
+                <h3>📝 Send Us a Message</h3>
+                <form id="contactForm" style="margin-top: 20px;">
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                        <div>
+                            <label for="name" style="display: block; margin-bottom: 5px; font-weight: bold;">Your Name *</label>
+                            <input type="text" id="name" name="name" required 
+                                   style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                        </div>
+                        <div>
+                            <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">Email Address *</label>
+                            <input type="email" id="email" name="email" required 
+                                   style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 20px;">
+                        <label for="subject" style="display: block; margin-bottom: 5px; font-weight: bold;">Subject *</label>
+                        <select id="subject" name="subject" required 
+                                style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                            <option value="">Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="news">News Story/Tip</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="complaint">Complaint</option>
+                            <option value="advertising">Advertising</option>
+                            <option value="partnership">Partnership</option>
+                        </select>
+                    </div>
+                    
+                    <div style="margin-top: 20px;">
+                        <label for="phone" style="display: block; margin-bottom: 5px; font-weight: bold;">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" 
+                               style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                    </div>
+                    
+                    <div style="margin-top: 20px;">
+                        <label for="message" style="display: block; margin-bottom: 5px; font-weight: bold;">Message *</label>
+                        <textarea id="message" name="message" rows="5" required 
+                                  style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; resize: vertical;"></textarea>
+                    </div>
+                    
+                    <div style="margin-top: 20px;">
+                        <button type="submit" class="play-button" style="background: var(--primary-orange);">
+                            Send Message
+                        </button>
+                        <button type="reset" class="play-button" style="background: var(--secondary-blue);">
+                            Clear Form
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Additional Contact Methods -->
+            <div class="content-grid" style="margin-top: 30px;">
+                <!-- Social Media -->
+                <div class="content-card">
+                    <h3> Social Media</h3>
+                    <p>Connect with us on social media for updates and interactive content:</p>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-top: 15px;">
+                        <a href="https://www.facebook.com/etayagusii" style="display: block; padding: 10px; background: #1877f2; color: white; text-align: center; text-decoration: none; border-radius: 5px;">Facebook</a>
+                        <a href="#" style="display: block; padding: 10px; background: #1da1f2; color: white; text-align: center; text-decoration: none; border-radius: 5px;">Twitter</a>
+                        <a href="https://wa.me/254735333000" style="display: block; padding: 10px; background: #25d366; color: white; text-align: center; text-decoration: none; border-radius: 5px;"> WhatsApp</a>
+                        <a href="https://www.instagram.com/etayagusiiofficial?igsh=MTUwam0wcGVhZ3ZldA==" style="display: block; padding: 10px; background: #e4405f; color: white; text-align: center; text-decoration: none; border-radius: 5px;">Instagram</a>
+                        <a href="https://www.youtube.com/@Etaya_TV" style="display: block; padding: 10px; background: #ff0000; color: white; text-align: center; text-decoration: none; border-radius: 5px;">YouTube</a>
+                        <a href="#" style="display: block; padding: 10px; background: #0e76a8; color: white; text-align: center; text-decoration: none; border-radius: 5px;">LinkedIn</a>
+                    
+                    </div>
+                
+                </div>
+
+                <!-- Business Hours -->
+                <div class="content-card">
+                    <h3> Business Hours</h3
+                    <p> <strong>Main Office:</strong></p>
+                    <ul style="list-style: none; padding-left: 0;">
+                        <li>Monday - Friday: 8:00 AM - 5:00 PM</li>
+                        <li>Saturday: 9:00 AM - 1:00 PM</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                    <p style="margin-top: 15px;"><strong>Emergency Contact:</strong> Available 24/7 for breaking news</p>
+                    <p><strong>Emergency Line:</strong> +254 735 333000</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html">Latest News</a></li>
+                        <li><a href="sports.html">Sports</a></li>
+                        <li><a href="business.html">Business</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>📍 Location: Kisii-Kisumu Road Nyamataro</li>
+                        <li>📞 Phone: +254 735 333000</li>
+                        <li>📧 Email: etayaradio@gmail.com</li>
+                        <li>📻 Frequency: 100.3 FM</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                               <div class="social-links">
+                                 <ul>
+                                    <li> <a href="https://www.facebook.com/etayagusii" class="social-link" target="_blank">Facebook</a> </li>
+                                    <li> <a href="#" class="social-link" target="_blank">𝕏/Twitter</a> </li>
+                                    <li> <a href="https://www.youtube.com/@Etaya_TV" class="social-link" target="_blank">Youtube</a> </li>
+                                    <li> <a href="https://wa.me/254735333000" class="social-link" target="_blank">Instagram</a> </li>
+                                    <li> <a href="https://wa.me/254735333000" class="social-link" target="_blank">WhatsApp</a> </li>
+                                 </ul>
+                </div>
+
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Etaya Radio 100.3 FM. All rights reserved. | Eriogi Ria Omogusii</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Contact form handling
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Show success message (in real implementation, this would send to server)
+            const successMessage = document.createElement('div');
+            successMessage.style.cssText = `
+                background: #d4edda;
+                color: #155724;
+                padding: 15px;
+                border-radius: 5px;
+                margin-top: 20px;
+                border: 1px solid #c3e6cb;
+            `;
+            successMessage.innerHTML = `
+                <strong>Thank you for contacting us!</strong><br>
+                We have received your message and will respond within 24 hours.
+            `;
+            
+            this.appendChild(successMessage);
+            this.reset();
+            
+            // Remove success message after 5 seconds
+            setTimeout(() => {
+                successMessage.remove();
+            }, 5000);
+        });
+    </script>
+</body>
+</html>

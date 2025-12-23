@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Etaya Radio 100.3 FM</title>
+    <meta name="description" content="Latest news updates from Etya Radio 100.3 FM - Your trusted source for local and international news">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/etaya icon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                  <img src="images/etaya logo.jpeg" alt="Etaya Logo" class="logo">
+                    <div class="radio-info">
+                        <div class="radio-name">Etaya Radio</div>
+                        <div class="frequency">100.3 FM</div>
+                        <div class="slogan">Eriogi Ria Omogusii</div>
+                    </div>
+                </div>
+                <div class="search-container">
+                    <input type="text" class="search-bar" placeholder="Search news..." autocomplete="off">
+                    <button class="search-btn" aria-label="Search">🔍</button>
+                </div>
+                <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <button class="nav-link live-btn" onclick="window.location.href='#live-player'">🔴 LIVE</button>
+                </li>
+                <li class="nav-item">
+                    <a href="Home.html" class="nav-link"> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link"> News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="politics.html" class="nav-link"> Politics</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="business.html" class="nav-link"> Business</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sports.html" class="nav-link"> Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link"> About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link"> Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Search Results (Hidden by default) -->
+    <div class="container">
+        <div class="search-results"></div>
+    </div>
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Live Player Section -->
+            <div class="live-player" id="live-player">
+                <h2>🔴 Listen Live</h2>
+                <div class="live-video-container">
+                    <div class="video-placeholder">
+                        <div class="live-indicator">🔴 LIVE</div>
+                        <div class="presenter-info">
+                            <h3>Current Presenter</h3>
+                            <p>Brighton Makori & Sarah Ontita</p>
+                            <p>Etaya Breakfast Show</p>
+                        </div>
+                        <button class="fullscreen-btn" title="Toggle Fullscreen">⛶</button>
+                    </div>
+                </div>
+                <div class="audio-controls">
+                    <button class="play-button">▶ Play Live</button>
+                    <div class="now-playing">
+                        <p>Click the play button to start listening to Etaya Radio 100.3 FM</p>
+                    </div>
+                </div>
+            </div>
+             
+            <!-- Content Grid -->
+            <div class="content-grid">
+                <!-- Latest News Card -->
+                <div class="content-card">
+                    <h3> Latest News</h3>
+                    <p>Stay updated with the latest happenings in Kisii, Nyamira and around the world. Our dedicated news team brings you accurate and timely information 24/7.</p>
+    
+                    <a href="news.html" class="read-more">Read More News →</a>
+                </div>
+
+                <!-- Sports Updates Card -->
+                <div class="content-card">
+                    <h3> Sports Updates</h3>
+                    <p>Get the latest scores, match analyses and sports news from local and international competitions. We cover football, athletics and more.</p>
+                    <p>Our sports segment features interviews with athletes, coaches and sports experts to bring you comprehensive coverage.</p>
+                    <a href="sports.html" class="read-more">Read More Sports →</a>
+                </div>
+
+                <!-- Business News Card -->
+                <div class="content-card">
+                    <h3> Business News</h3>
+                    <p>Track market trends, business opportunities and economic developments affecting our community. We provide insights for entrepreneurs and investors.</p>
+                    <p>We update you on prices of goods at Daraja Mbili, Mogonga, Nyangusu, Nyakoe, Igare, Kebirigo and other markets across Gusii region.</p>
+                    <a href="business.html" class="read-more">Read More Business →</a>
+                </div>
+
+                <!-- Politics Card -->
+                <div class="content-card">
+                    <h3> Politics </h3>
+                    <p>Comprehensive coverage of political developments, policy changes and governance issues. We provide balanced analysis and expert opinions.</p>
+                    <p>Stay informed about decisions that affect Gusii community's future and development.</p>
+                    <a href="politics.html" class="read-more">Read More Politics →</a>
+                </div>
+
+                <!-- Community Programs Card -->
+                <div class="content-card">
+                    <h3> Our Programs</h3>
+                    <p>Discover our diverse range of programs designed to educate, entertain and inform. From morning shows to evening discussions, we have something for everyone.</p>
+                    <p>Join us for special features on health, education, culture and community development initiatives.</p>
+                    <a href="about.html" class="read-more">View All Programs →</a>
+                </div>
+
+                <!-- Featured Events Card -->
+                <div class="content-card">
+                    <h3> Upcoming Events</h3>
+                    <p>Stay tuned for special broadcasts, community events and live coverage of important occasions. We bring the community together through radio.</p>
+                    <a href="contact.html" class="read-more">Get in Touch →</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Etaya Radio</h3>
+                    <p>Etaya Radio 100.3 FM is your trusted radio station in the Gusii Region dedicated to serving with integrity and excellence. Eriogi Ria Omogusii.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="news.html">Latest News</a></li>
+                        <li><a href="sports.html">Sports Coverage</a></li>
+                        <li><a href="business.html">Business Updates</a></li>
+                        <li><a href="politics.html">Political Analysis</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <ul>
+                        <li>📍 Location: Kisii-Kisumu Road, Etaya House, Nyamataro</li>
+                        <li>📞 Phone: +254 735 333000</li>
+                        <li>📧 Email: etayaradio@gmail.com</li>
+                        <li>📻 Frequency: 100.3 FM</li>
+            
+                    </ul>
+                </div>
+            </div>
+        </div>
+                    <div class="footer-bottom">
+                <p>&copy; 2025 Etaya Radio 100.3 FM. All rights reserved. | Eriogi Ria Omogusii</p>
+            </div>
+    </footer>  
+
+    <script src="js/script.js"></script>
+</body>
+</html>
